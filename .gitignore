@@ -1,0 +1,10 @@
+# OS related
+Thumbs.db
+
+
+# Ignore python artifacts
+__pycache__/
+.vscode/
+.ipynb_checkpoints/
+.venv/
+.env
