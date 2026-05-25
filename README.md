@@ -31,18 +31,38 @@ The goal is to give business stakeholders a single unified hub to monitor **sale
 
 
  <br>
- 
-## 📊 Dashboard Preview
- 
- > **View Detailed Charts :** Go to Files > dashboard > Retail_sales_Dashboard.pbix
 
- <br>
- 
-<div align="center">
-  <img src="dashboard/Scr_dashboard.png" alt="Dashboard Preview" width="1100"/>
-</div>
+## 📸 Dashboard Preview
 
-<br>
+<table border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <td colspan="2" align="center">
+      <h3>🏠 Overview</h3>
+      <p><i>Main dashboard </i></p>
+      <img src="dashboard/Scr_dashboard.png" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>📈 Sales Deep Dive</h3>
+      <img src="dashboard/Scr_sales.png" width="100%"/>
+    </td>
+    <td align="center" width="50%">
+      <h3>👥 Customer Intelligence</h3>
+      <img src="dashboard/Scr_customers.png" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🛍️ Product Performance</h3>
+      <img src="dashboard/Scr_products.png" width="100%"/>
+    </td>
+    <td align="center" width="50%">
+      <h3>💰 Financial Health</h3>
+      <img src="dashboard/Scr_financial.png" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 
   <br>
