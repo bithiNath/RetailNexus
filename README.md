@@ -192,20 +192,9 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', NULL '');
 - Server: `localhost` | Database: `retailnexus_db`
 - Load the `retail_sales` table
 - Recreate the dashboard visuals as shown in the screenshots above
+  
   <br>
  
-## 📸 Dashboard Screenshots
- 
- 
-| Page | Preview |
-|---|---|
-| Overview | `dashboard/Scr_dashboard.png` |
-| Sales Deep Dive | `dashboard/Scr_sales.png` |
-| Customer Intelligence | `dashboard/Scr_customers.png` |
-| Product Performance | `dashboard/Scr_products.png` |
-| Financial Health | `dashboard/Scr_financial.png` |
- 
-  <br>
  
 ## **🔑 Key Insights :**
 
@@ -232,13 +221,13 @@ d. **🏆 Product PerformanceTop Revenue Generators:** `Monitors (53.3K)` and `L
 - **LinkedIn:** [Bithi Nath](https://linkedin.com/in/bithinath)
 
 
- 
+ <br>
  
 ## 📄 License
  
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
  
-
+<br>
  
 ## 🙏 Acknowledgements
  
@@ -246,11 +235,11 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - Built as part of a self-learning journey in Data Analytics
 - Tools used: Python, PostgreSQL, Power BI Desktop, VS Code, Git
  
-
-
-*⭐ If you found this project helpful, please consider giving it a star on GitHub!*
-
 <br>
+
+-----
+<p align="center">⭐ If you found this project helpful, please consider giving it a star on GitHub!</p>
+
 
 <p align="center">Developed by <a href="https://github.com/bithiNath">@bithiNath</a> ⚡</p>
 
