@@ -29,6 +29,21 @@ The goal is to give business stakeholders a single unified hub to monitor **sale
 - Which months and days of the week see the highest sales?
 - How is revenue trending over time vs profit?
 ---
+
+
+## 📊 Dashboard Preview
+ 
+ > To explore each chart individually in detail, click **"View Detailed Charts"** or use the **"button"** at the top-right of the dashboard.
+
+**View Detailed Charts :** Go to Files > dashboard > Retail_sales_Dashboard.pbix
+
+<div align="center">
+  <img src="dashboard/dashboard-screenshot.png" alt="Dashboard Preview" width="1100"/>
+</div>
+
+<br>
+
+
  
 ## 🛠️ Tech Stack
  
