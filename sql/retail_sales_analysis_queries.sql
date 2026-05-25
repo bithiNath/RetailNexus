@@ -71,4 +71,16 @@ WHERE city IS NOT NULL
 GROUP BY city
 ORDER BY total_revenue DESC;
 
+-----Revenue by sales_channel--------
+SELECT 
+     sales_channel,
+     COUNT(*) as transactions,
+     ROUND(SUM(total_sale)) AS total_revenue,
+     ROUND(100.0 * COUNT(*) / SUM(COUNT(*)) over (), 1) AS pct_of_transactions
+FROM retail_sales
+GROUP BY sales_channel
+ORDER BY total_revenue DESC;
+
+---Day of week sales pattern----
+
 
