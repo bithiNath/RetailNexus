@@ -7,7 +7,6 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
  
----
  
 ## 📌 Project Overview
  
@@ -17,7 +16,8 @@ The goal is to give business stakeholders a single unified hub to monitor **sale
  
 > ⚠️ **Note:** The dataset used in this project is a dummy/synthetic dataset created for learning and portfolio purposes. It does not represent any real company or organization.
  
----
+
+ <br>
  
 ## 🎯 Business Questions Answered
  
@@ -28,20 +28,24 @@ The goal is to give business stakeholders a single unified hub to monitor **sale
 - Does offering a discount actually improve profit margin?
 - Which months and days of the week see the highest sales?
 - How is revenue trending over time vs profit?
----
 
 
+ <br>
+ 
 ## 📊 Dashboard Preview
  
  > **View Detailed Charts :** Go to Files > dashboard > Retail_sales_Dashboard.pbix
 
+ <br>
+ 
 <div align="center">
-  <img src="dashboard/dashboard-screenshot.png" alt="Dashboard Preview" width="1100"/>
+  <img src="dashboard/Scr_dashboard.png" alt="Dashboard Preview" width="1100"/>
 </div>
 
 <br>
 
 
+  <br>
  
 ## 🛠️ Tech Stack
  
@@ -53,7 +57,7 @@ The goal is to give business stakeholders a single unified hub to monitor **sale
 | IDE | VS Code | Development environment |
 | Version Control | Git & GitHub | Project management |
  
----
+ <br>
  
 ## 📁 Project Structure
  
@@ -81,8 +85,8 @@ RetailNexus/
 └── README.md
 ```
  
----
 
+  <br>
  
 ## ⚙️ Pipeline — How It Works
  
@@ -102,7 +106,8 @@ Power BI ── Connect via PostgreSQL connector
 Interactive Dashboard (5 pages)
 ```
  
----
+ <br>
+ 
 
  
 ## 📂 Dataset Information
@@ -116,7 +121,8 @@ Interactive Dashboard (5 pages)
 | Geography | Bangladesh (Dhaka, Chittagong, Sylhet, Khulna, Rajshahi, etc.) |
 | Categories | Electronics, Clothing, Food & Grocery, Home & Garden, Sports, Beauty |
 
-
+ <br>
+ 
 ## 🚀 How to Run This Project
  
 ### Prerequisites
@@ -164,11 +170,11 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', NULL '');
 - Open `dashboard/RetailNexus_Dashboard.pbix` in Power BI Desktop
 - Update the PostgreSQL connection with your credentials
 - Click **Refresh** — all 5 pages will populate with your data
----
+
+  <br>
  
 ## 📸 Dashboard Screenshots
  
-> Add your Power BI dashboard screenshots here after export.
  
 | Page | Preview |
 |---|---|
@@ -178,40 +184,52 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', NULL '');
 | Product Performance | `screenshots/04_products.png` |
 | Financial Health | `screenshots/05_financials.png` |
  
----
+  <br>
  
-## 🔑 Key Insights (Sample)
+## **🔑 Key Insights :**
+
+a. **📊 High-Level KPIsRevenue & Profit:**
+  Total Revenue stands at 577.58K with a Total Profit of 235.80K, yielding a strong `40.83% Profit Margin`.
+  - **Order Metrics:** A total of `1963 transations` were processed with a healthy `Average Order Value (AOV) of 294.23`.
+  - **Product Returns:** The product return rate is kept low at 7.85%.
+  
+b. **📈 Sales & Revenue TrendsSeasonal Peak:** Monthly revenue and profit remain stable mid-year but experience a massive surge, peaking sharply in September and October.
+  - **Dominant Category:** Electronics is the primary revenue driver, contributing over half of the `total revenue at 54%`. `Home & Garden (11%)` and `Clothing (9%)` follow.
+  - **Geographical Distribution:** Khulna and Chittagong regions outperform all other locations, securing the highest shares in geographical revenue distribution.
+  
+c. **👥 Customer & Channel DemographicsCustomer Satisfaction:** Average customer ratings remain consistently high (between 3 and 4 stars) across all categories, showing no significant variation between male and female buyers.
+ - **Tier Performance:** Across Online, and In-Store channels, Bronze membership holders contribute the largest share of `total revenue (ranging from 26% to 32%)`.
+  
+d. **🏆 Product PerformanceTop Revenue Generators:** `Monitors (53.3K)` and `Laptops (51.2K)` lead the chart as the `highest-selling products` by total revenue.
+ - **Highest Efficiency:** While monitors sell the most, Smartphones yield the highest `Average Profit Margin percentage (32.4%)`.
  
-- **Khulna** generates the highest revenue among all cities
-- **Gold tier** members have the highest average spend per visit
-- **Electronics** is the top revenue category but also has a higher return rate
-- **In-Store** channel dominates sales volume
-- Revenue peaks on **weekends** with Friday being the busiest day
-- Transactions with a **discount event** show higher average order value but lower profit margin
----
- 
+  <br>
  
 ## 👤 Author
+
+- **GitHub:** [@bithiNath](https://github.com/bithiNath)
+- **LinkedIn:** [Bithi Nath](https://linkedin.com/in/bithinath)
+
+
  
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
----
  
 ## 📄 License
  
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
  
----
+
  
 ## 🙏 Acknowledgements
  
 - Dataset is synthetic and created purely for educational and portfolio purposes
 - Built as part of a self-learning journey in Data Analytics
 - Tools used: Python, PostgreSQL, Power BI Desktop, VS Code, Git
----
- 
-*⭐ If you found this project helpful, please consider giving it a star on GitHub!*
  
 
+
+*⭐ If you found this project helpful, please consider giving it a star on GitHub!*
+
+<br>
+
+<p align="center">Developed by <a href="https://github.com/bithiNath">@bithiNath</a> ⚡</p>
 
