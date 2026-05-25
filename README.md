@@ -151,7 +151,7 @@ Interactive Dashboard (5 pages)
 - Power BI Desktop (Windows only, free)
 ### Step 1 — Clone the Repository
 ```bash
-git clone https://github.com/yourusername/RetailNexus.git
+git clone https://github.com/bithiNath/RetailNexus.git
 cd RetailNexus
 ```
  
@@ -185,12 +185,13 @@ Then import the CSV:
 \copy retail_sales FROM 'data/processed/retail_sales_data_cleaned.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', NULL '');
 ```
- 
-### Step 5 — Open Power BI Dashboard
-- Open `dashboard/RetailNexus_Dashboard.pbix` in Power BI Desktop
-- Update the PostgreSQL connection with your credentials
-- Click **Refresh** — all 5 pages will populate with your data
 
+### Step 5 — Connect Power BI to PostgreSQL
+- Open Power BI Desktop
+- Click **Get Data** → Select **PostgreSQL**
+- Server: `localhost` | Database: `retailnexus_db`
+- Load the `retail_sales` table
+- Recreate the dashboard visuals as shown in the screenshots above
   <br>
  
 ## 📸 Dashboard Screenshots
