@@ -178,11 +178,11 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', NULL '');
  
 | Page | Preview |
 |---|---|
-| Overview | `screenshots/01_overview.png` |
-| Sales Deep Dive | `screenshots/02_sales.png` |
-| Customer Intelligence | `screenshots/03_customers.png` |
-| Product Performance | `screenshots/04_products.png` |
-| Financial Health | `screenshots/05_financials.png` |
+| Overview | `dashboard/Scr_dashboard.png` |
+| Sales Deep Dive | `dashboard/Scr_sales.png` |
+| Customer Intelligence | `dashboard/Scr_customers.png` |
+| Product Performance | `dashboard/Scr_products.png` |
+| Financial Health | `dashboard/Scr_financial.png` |
  
   <br>
  
